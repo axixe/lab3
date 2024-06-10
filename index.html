@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>laba 3</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" defer></script>
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <section class="main__block">
+        <form action="php/script.php" method="POST" class="data__wrapper" id="data_form">
+            <div class="data__title">Исходные данные</div>
+            <div class="data__input--wrapper">
+                <label for="a_num" class="data__label--style">A = </label>
+                <input type="number" class="data__input--style" id="a_num">
+            </div>
+            <div class="data__input--wrapper">
+                <label for="b_num" class="data__label--style">B = </label>
+                <input type="number" class="data__input--style" id="b_num">
+            </div>
+            <div class="data__input--wrapper">
+                <label for="c_num" class="data__label--style">C = </label>
+                <input type="number" class="data__input--style" id="c_num">
+            </div>
+        </form>
+
+        <div class="result__wrapper">
+            <div class="result__title">Результат</div>
+            <div class="result__space"></div>
+        </div>
+    </section>
+</body>
+</html>
